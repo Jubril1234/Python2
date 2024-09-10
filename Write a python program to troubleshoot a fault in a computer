@@ -1,0 +1,32 @@
+def troubleshoot_fault():
+    print("Computer Troubleshooting Guide")
+    print("--------------------------------")
+    1== print (" To check if won't turn on input 1: ")
+    2== print ("To check if slow input 2: ")
+    3== print ("To check if freezes input 3: ")
+    4== print ("To check if won't connect to internet input 4: ")
+    choice = input("input fault number")
+        
+    if choice =="1":
+    
+        print ("Check the power cord connection")
+        print ("Check the power button")
+        print("Check for blown fuse or tripped circuit")
+    elif choice =="2":
+    
+        print ("Check for malware or viruses") 
+        print ( "Check for disk space and free up space if necessary")
+        print ("Check for software updates")
+    elif choice =="3":
+    
+        print ("Check for overheating")
+        print ("Check for driver updates")
+        print ("Check for software conflicts")
+    elif choice =="4":
+        
+        print ("Check network cables and connections")
+        print ("Check Wi-Fi settings")
+        print ( "Check for internet service provider outages")
+    
+    else:print("Sorry, I couldn't identify the fault. Please try again.")
+troubleshoot_fault()
